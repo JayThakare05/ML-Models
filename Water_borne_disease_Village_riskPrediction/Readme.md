@@ -149,3 +149,5 @@ Final Test Accuracy: 0.9825
 👨‍💻 Author
 
 Jay Thakare
+
+![Confusion matrix](images/confusion_matrix.png)
