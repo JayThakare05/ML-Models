@@ -1,11 +1,11 @@
 # Water-Borne Disease Risk Prediction (XGBoost)
 
-This repository contains scripts to train and evaluate a **multi-class XGBoost model** that predicts water-borne disease risk categories:
+This repository contains scripts to **train and evaluate** a multi-class XGBoost model that predicts water-borne disease risk categories:
 
-- Low  
-- Moderate  
-- High  
-- Very High  
+- **Low**  
+- **Moderate**  
+- **High**  
+- **Very High**  
 
 The classification is based on water quality indicators and health-related data.
 
@@ -69,11 +69,7 @@ Print accuracy & classification report
 Display a confusion matrix heatmap
 
 🧾 Dataset Format
-Training file: water_risk_data_4000.csv
-
-Testing file: water_risk_data_1000.csv
-
-Both should include:
+Both training (water_risk_data_4000.csv) and testing (water_risk_data_1000.csv) datasets should include:
 
 Features
 
@@ -113,14 +109,11 @@ eval_metric="mlogloss"
 Split: 80/20 stratified train-test split
 
 📈 Example Results
-Accuracy: 0.9825
+Test Accuracy: 0.9825
 
-Confusion Matrix Heatmap:
+Confusion Matrix Heatmap
 
-
-
-Sample Run Screenshot:
-
+Sample Run Screenshot
 
 💾 Outputs
 xgboost_WBD.pkl → trained model
@@ -140,3 +133,18 @@ Build a monitoring system for real-time water quality data
 
 👨‍💻 Author
 Jay Thakare
+
+yaml
+Copy code
+
+---
+
+### 🔑 Notes for You
+1. Place your images in a folder called **`images/`** inside the repo (next to README.md).  
+   Example:
+├── images/
+│ ├── confusion_matrix.png
+│ └── sample_output.png
+
+yaml
+Copy code
